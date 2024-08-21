@@ -9,6 +9,8 @@
 
 ## Presentation Diagram
 
+Original sample package
+
 ```js
 // index.js
 
@@ -39,6 +41,8 @@ module.exports = {
 };
 ```
 
+Declaring the module in typescript
+
 ```ts
 declare module "sample-math-package" {
   export function add(a: number, b: number): number;
@@ -47,8 +51,6 @@ declare module "sample-math-package" {
   export function divide(a: number, b: number): number;
 }
 ```
-
-<img src='./asset/example diagram.png'></img>
 
 ## Prerequisite
 
